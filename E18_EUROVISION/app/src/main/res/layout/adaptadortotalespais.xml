@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="left"
+    android:orientation="horizontal"
+    android:padding="15dp">
+
+    <TextView
+        android:id="@+id/tvPaisadaptador"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="@color/purple"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvTotalVotosadaptador"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginLeft="8dp"
+        android:background="@color/yellow"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textColor="@color/purple"
+        android:textStyle="bold" />
+
+</LinearLayout>

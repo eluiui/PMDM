@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Navegador_GridLayout</string>
+    <string name="app_name_v2">Navegador_LinearLayout_Mejorado</string>
+    <string name="mensaje">Utilizas IExplorer?</string>
+    <string name="btn1">1</string>
+    <string name="btn2">2</string>
+    <string name="btn3">3</string>
+</resources>

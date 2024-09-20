@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/color"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <android.widget.SearchView
+        android:id="@+id/buscartexto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/tipuser"
+        android:queryHint="@string/search"
+        android:background="@drawable/targeta"
+        android:textColor="@color/black" />
+
+    <ListView
+        android:id="@+id/listanime"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="@dimen/tipuser"
+        android:layout_marginRight="@dimen/tipuser"
+        android:layout_marginBottom="@dimen/tipuser"
+        android:layout_weight="1"
+        android:divider="@drawable/divider"
+        android:dividerHeight="10dp" />
+</LinearLayout>

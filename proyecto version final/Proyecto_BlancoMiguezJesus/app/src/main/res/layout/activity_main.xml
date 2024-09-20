@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/color"
+    android:gravity="center"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/Bienvenida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/bienvenida"
+        android:text="@string/bienvenida"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="@dimen/bienvenidatexto"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/layoutbotones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/adminbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/admin"
+            android:backgroundTint="@color/naranja"
+            android:textSize="@dimen/tipusertextto"
+            android:onClick="onclick"/>
+
+        <Button
+            android:id="@+id/userbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/bienvenida"
+            android:backgroundTint="@color/naranja"
+            android:text="@string/user"
+            android:textSize="@dimen/tipusertextto"
+            android:onClick="onclick"/>
+        <TextView
+            android:id="@+id/asistenciabtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/bienvenida"
+            android:text="@string/askquestions"
+            android:textColor="@color/black"
+            android:textSize="@dimen/tipusertextto"
+            android:onClick="onclick"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/animeimg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/logo" />
+
+
+</LinearLayout>

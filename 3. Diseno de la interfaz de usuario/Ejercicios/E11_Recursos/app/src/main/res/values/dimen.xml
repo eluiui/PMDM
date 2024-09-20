@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="normal">20sp</dimen>
+    <dimen name="grande">40sp</dimen>
+    <dimen name="padnorm">10dp</dimen>
+    <dimen name="padgrand">20dp</dimen>
+</resources>

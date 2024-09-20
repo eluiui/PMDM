@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Manejo de Activity"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Estamos en la activity 1"/>
+
+    <!-- cambio de activity normal -->
+    <Button
+        android:id="@+id/btnLlamadaActividad2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Llamada a Activity2"
+        android:onClick="onClickCambioAcitivity"/>
+
+    <!-- llamar a Activity pasandole datos -->
+    <Button
+        android:id="@+id/btnLlamadaActividad3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Llamada a Activity3"
+        android:onClick="onClickCambioAcitivity"/>
+
+    <!-- llamar a Activity pasandole datos med. Bundle -->
+    <Button
+        android:id="@+id/btnLlamadaActividad4Bundle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Llamada a Activity4"
+        android:onClick="onClickCambioAcitivity"/>
+
+    <!-- llamar a Activity esperando respuesta -->
+    <Button
+        android:id="@+id/btnLlamadaCalculadora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Llamada a calculadora"
+        android:onClick="onClickCambioAcitivity"/>
+
+    <TextView
+        android:id="@+id/tvRespuesta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="XXXXXXXXXX"
+        android:textSize="22dp" />
+
+</LinearLayout>

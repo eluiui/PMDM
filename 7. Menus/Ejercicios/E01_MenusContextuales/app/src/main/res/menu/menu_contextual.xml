@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/opc_ctx_item1"
+        android:icon="@android:drawable/btn_star"
+        android:title="Contextual_opción 1" />
+    <item
+        android:id="@+id/opc_ctx_item2"
+        android:icon="@android:drawable/ic_media_play"
+        android:title="Contextual_opción 2" />
+    <item
+        android:id="@+id/opc_ctx_item3"
+        android:icon="@android:drawable/ic_media_play"
+        android:title="Contextual_opción 3" />
+</menu>

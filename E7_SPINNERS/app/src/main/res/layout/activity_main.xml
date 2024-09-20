@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fondoimagen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cian"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/bienvenido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="Elige tu pantalla "
+        android:textColor="@color/blue"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/cian"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:id="@+id/pantallas_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/pantallas"/>
+
+        <Spinner
+            android:id="@+id/padding_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <Button
+        android:onClick="onClickadelante"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adelante" />
+
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.Proyecto_BlancoMiguezJesus" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">
+            @color/black
+        </item>
+    </style>
+    <style name="menu" parent="Theme.Material3.Dark">
+        <item name="android:statusBarColor">
+            @color/black
+        </item>
+    </style>
+    <style name="Theme.Proyecto_BlancoMiguezJesus" parent="Base.Theme.Proyecto_BlancoMiguezJesus" />
+</resources>

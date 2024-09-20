@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/colores4" android:title="Mostrar fondo 4 colores"/>
+    <item android:id="@+id/colores6" android:title="Mostrar fondo 6 colores"/>
+    <item android:id="@+id/colores9" android:title="Mostrar fondo 9 colores"/>
+</menu>

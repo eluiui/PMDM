@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">IntentFilter</string>
+    <string name="btnExplicito">CARGAR WEB EXPLICITAMENTE</string>
+    <string name="btnImplicito">CARGAR WEB IMPLICITAMENTE</string>
+    <string name="etURL">Escribe URL</string>
+    <string name="tvTituloImplicito">ACTIVITY IMPLICITA</string>
+    <string name="tvTituloExplicito">ACTIVITY EXPLICITA</string>
+</resources>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@color/crema">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alumnos"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Curso:"
+            android:textStyle="bold"/>
+
+        <Spinner
+            android:id="@+id/spn_curso"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:entries="@array/curso"/>
+
+        <LinearLayout
+            android:id="@+id/ll_spnCiclo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ciclo:"
+                android:textStyle="bold"/>
+
+            <Spinner
+                android:id="@+id/spn_ciclo"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:entries="@array/ciclo"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alumno:"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/et_alumno"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="Nombre y Apellidos"
+            android:inputType="textCapWords"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_guardar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guardar"
+        android:onClick="onClickBtn"/>
+
+    <ListView
+        android:id="@+id/lv_alumnos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

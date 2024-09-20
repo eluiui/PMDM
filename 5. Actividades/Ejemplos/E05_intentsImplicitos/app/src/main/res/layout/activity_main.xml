@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#9CD8D2">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="50sp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ejemplo de intent explícitos"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/btn_contactos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mostrar lista de contactos"
+            android:onClick="onClickBtn"/>
+
+        <Button
+            android:id="@+id/btn_dial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mostrar el dial"
+            android:onClick="onClickBtn"/>
+
+        <Button
+            android:id="@+id/btn_dia_numero_premarcado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mostrar el dial con un num."
+            android:onClick="onClickBtn"/>
+
+        <Button
+            android:id="@+id/btn_call_directo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Llamada directamente"
+            android:onClick="onClickBtn"/>
+
+        <Button
+            android:id="@+id/btn_call_directo_compat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Llamada directamente compat"
+            android:onClick="onClickBtn"/>
+
+        <Button
+            android:id="@+id/btn_carga_url"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cagar url"
+            android:onClick="onClickBtn"/>
+
+        <Button
+            android:id="@+id/btn_mapa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Posicion mapa"
+            android:onClick="onClickBtn" />
+    </LinearLayout>
+</LinearLayout>

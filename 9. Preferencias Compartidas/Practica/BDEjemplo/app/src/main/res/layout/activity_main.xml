@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Operaciones en bases de datos"/>
+
+    <Button
+        android:id="@+id/btnInsertar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Insertar"
+        android:onClick="onClickBtn"/>
+
+    <Button
+        android:id="@+id/btneEliminar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eliminar"
+        android:onClick="onClickBtn"/>
+
+
+    <Button
+        android:id="@+id/btnActualizar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Actualizar"
+        android:onClick="onClickBtn"/>
+
+    <Button
+        android:id="@+id/btnConsulta1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Consulta1"
+        android:onClick="onClickBtn"/>
+
+    <Button
+        android:id="@+id/btnConsulta2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Consulta2"
+        android:onClick="onClickBtn"/>
+
+</LinearLayout>

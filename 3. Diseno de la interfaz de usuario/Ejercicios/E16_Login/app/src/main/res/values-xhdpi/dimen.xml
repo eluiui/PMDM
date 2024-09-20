@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tvLetra">36sp</dimen>
+    <dimen name="letraTamanho">25sp</dimen>
+    <dimen name="margenes">23dp</dimen>
+</resources>

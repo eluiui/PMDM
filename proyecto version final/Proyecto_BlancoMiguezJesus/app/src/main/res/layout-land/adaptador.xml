@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/targeta"
+    android:orientation="horizontal"
+    android:padding="@dimen/diez">
+
+    <LinearLayout
+        android:id="@+id/adaptadorll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/adaptadoriv"
+            android:layout_width="32dp"
+            android:layout_height="102dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:layout_marginLeft="@dimen/diez"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/adaptadortv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/black"
+                android:textSize="@dimen/tipusertextto"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/adaptadorsinopsis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dieztexto"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

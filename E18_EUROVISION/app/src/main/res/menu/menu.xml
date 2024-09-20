@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/datospais" android:title="Datos de pais"/>
+    <item android:id="@+id/totalesporpais" android:title="Votos totales por pais"/>
+</menu>

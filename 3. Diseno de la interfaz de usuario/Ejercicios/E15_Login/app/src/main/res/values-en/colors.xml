@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="Cabecera">#FFFFFFFF</color>
+    <color name="backgroundCabecera">#673AB7</color>
+    <color name="background">#8BC34A</color>
+    <color name="tvMensajes">#FF0000</color>
+</resources>

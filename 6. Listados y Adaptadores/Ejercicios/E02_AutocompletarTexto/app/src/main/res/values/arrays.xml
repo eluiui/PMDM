@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="nombres">
+        <item>Abel</item>
+        <item>Ana</item>
+        <item>Anacleto</item>
+        <item>Anastasio</item>
+        <item>Anastasia</item>
+
+        <item>Beatriz</item>
+        <item>Bernardo</item>
+        <item>Bianca</item>
+        <item>Boris</item>
+        <item>Brenda</item>
+
+        <item>Carlos</item>
+        <item>Carmen</item>
+        <item>César</item>
+        <item>Claudia</item>
+        <item>Cristian</item>
+
+        <item>Daniel</item>
+        <item>Diana</item>
+        <item>Diego</item>
+        <item>Dolores</item>
+        <item>Dominic</item>
+
+        <item>Eduardo</item>
+        <item>Elena</item>
+        <item>Emilio</item>
+        <item>Estela</item>
+        <item>Enrique</item>
+
+        <item>Fabiola</item>
+        <item>Felipe</item>
+        <item>Fernanda</item>
+        <item>Fernando</item>
+        <item>Flavia</item>
+
+        <item>Gabriel</item>
+        <item>Giselle</item>
+        <item>Gonzalo</item>
+        <item>Graciela</item>
+        <item>Guillermo</item>
+
+        <item>Héctor</item>
+        <item>Helena</item>
+        <item>Hugo</item>
+        <item>Heidi</item>
+        <item>Hernán</item>
+
+        <item>Ignacio</item>
+        <item>Isabel</item>
+        <item>Iván</item>
+        <item>Isadora</item>
+        <item>Inés</item>
+
+        <item>Javier</item>
+        <item>Jacqueline</item>
+        <item>Joel</item>
+        <item>Johana</item>
+        <item>José</item>
+
+        <item>Karina</item>
+        <item>Kevin</item>
+        <item>Karla</item>
+        <item>Klaus</item>
+        <item>Karen</item>
+
+        <item>Luis</item>
+        <item>Lucía</item>
+        <item>Leonardo</item>
+        <item>Laura</item>
+        <item>León</item>
+
+        <item>Miguel</item>
+        <item>María</item>
+        <item>Matías</item>
+        <item>Mónica</item>
+        <item>Mario</item>
+
+        <item>Natalia</item>
+        <item>Nicolás</item>
+        <item>Natalie</item>
+        <item>Nacho</item>
+        <item>Nora</item>
+
+        <item>Oscar</item>
+        <item>Olga</item>
+        <item>Octavio</item>
+        <item>Ofelia</item>
+        <item>Orlando</item>
+
+        <item>Pablo</item>
+        <item>Paula</item>
+        <item>Pedro</item>
+        <item>Paloma</item>
+        <item>Patricio</item>
+
+        <item>Quim</item>
+        <item>Quetzal</item>
+        <item>Quirina</item>
+        <item>Quinton</item>
+        <item>Queila</item>
+
+        <item>Rafael</item>
+        <item>Rosa</item>
+        <item>Ricardo</item>
+        <item>Rebeca</item>
+        <item>Ramón</item>
+
+        <item>Sergio</item>
+        <item>Sofía</item>
+        <item>Samuel</item>
+        <item>Sandra</item>
+        <item>Simón</item>
+
+        <item>Tomás</item>
+        <item>Tatiana</item>
+        <item>Teodoro</item>
+        <item>Teresa</item>
+        <item>Tristán</item>
+
+        <item>Ulises</item>
+        <item>Ursula</item>
+        <item>Uriel</item>
+        <item>Úrsulo</item>
+        <item>Úrsula</item>
+
+        <item>Victor</item>
+        <item>Valeria</item>
+        <item>Víctor</item>
+        <item>Victoria</item>
+        <item>Valentín</item>
+
+        <item>Walter</item>
+        <item>Wendy</item>
+        <item>William</item>
+        <item>Wilma</item>
+        <item>Waldo</item>
+
+        <item>Xavier</item>
+        <item>Ximena</item>
+        <item>Xander</item>
+        <item>Xenia</item>
+        <item>Xavi</item>
+
+        <item>Yago</item>
+        <item>Yasmin</item>
+        <item>Yamil</item>
+        <item>Yolanda</item>
+        <item>Yeray</item>
+
+        <item>Zacarías</item>
+        <item>Zoe</item>
+        <item>Zenón</item>
+        <item>Zaida</item>
+        <item>Zayn</item>
+    </string-array>
+</resources>
+

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Acciones con base de datos"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/et_colorBd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Escribe un color"/>
+
+    <Button
+        android:id="@+id/btn_insertColorBd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Añadir color"
+        android:onClick="onClickBtnBd"/>
+
+    <Button
+        android:id="@+id/btn_eliminarColorBd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eliminar color"
+        android:onClick="onClickBtnBd"/>
+
+    <Button
+        android:id="@+id/btn_listarColoresBd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Listar colores"
+        android:onClick="onClickBtnBd"/>
+
+    <ListView
+        android:id="@+id/lv_colorBd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_atrasBd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Atrás"
+        android:onClick="onClickBtnBd"/>
+
+
+</LinearLayout>

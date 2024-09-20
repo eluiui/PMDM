@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="colores">
+        <item name="Rojo">Rojo</item>
+        <item name="Verde">Verde</item>
+        <item name="Azul">Azul</item>
+        <item name="Amarillo">Amarillo</item>
+    </string-array>
+
+    <array name="fotoscolores">
+        <item>@drawable/red</item>
+        <item>@drawable/verde</item>
+        <item>@drawable/azul</item>
+        <item>@drawable/amarillo</item>
+    </array>
+</resources>

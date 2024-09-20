@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cian"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/verdatos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onclick"
+        android:text="Ver Datos Del Festival"/>
+
+    <ListView
+        android:id="@+id/listdatos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/purple"
+        android:dividerHeight="2dp"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/listdatostotalespais"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/purple"
+        android:dividerHeight="2dp"
+        android:visibility="gone" />
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/llautocomplete"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Elige un pais"
+            android:textColor="@color/purple"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <AutoCompleteTextView
+            android:id="@+id/autocomplete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Pais"
+            android:textColor="@color/purple"
+            android:textSize="20sp"
+            android:textStyle="italic|bold" />
+
+        <ListView
+            android:id="@+id/listdatospais"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@color/purple"
+            android:dividerHeight="2dp"
+            android:background="@color/rosa"/>
+    </LinearLayout>
+
+</LinearLayout>

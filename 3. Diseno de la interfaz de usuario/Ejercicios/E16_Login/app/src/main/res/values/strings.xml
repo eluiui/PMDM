@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Login</string>
+    <string name="etEmail">Correo electrónico</string>
+    <string name="etContrasenha">Contraseña</string>
+    <string name="tvTitulo">Conectar</string>
+    <string name="btnIniciar">Iniciar Sesión</string>
+    <string name="tvContrasenhaOlvidada">¿Olvidaste tu contraseña?</string>
+</resources>

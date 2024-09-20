@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SaludoPersonalizado_v2</string>
+    <string name="app_name2">Saludando...</string>
+    <string name="btnSaludar">Saludar</string>
+    <string name="etNacimiento">Año de nacimiento</string>
+    <string name="etNombre">Nombre</string>
+    <string name="rbMasculino">Sr.</string>
+    <string name="rbFemenino">Sra.</string>
+    <string name="btnFinalizar">Finalizar</string>
+</resources>

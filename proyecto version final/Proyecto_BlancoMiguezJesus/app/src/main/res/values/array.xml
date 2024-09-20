@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="avatares">
+        <item>@string/musica</item>
+        <item>Megumin</item>
+        <item>@string/him</item>
+        <item>Hatsune Miku</item>
+        <item>Alastor</item>
+    </string-array>
+
+</resources>

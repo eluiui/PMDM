@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SharedPreferences 3"
+        android:textSize="20sp" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_height="8dp"
+        android:background="@color/black" />
+
+    <Button
+        android:id="@+id/btn_singlechoice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:onClick="onClickBtn"
+        android:text="SINGLECHOICE" />
+
+    <Button
+        android:id="@+id/btn_reset_pref"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickBtn"
+        android:text="RESET PARA LA PRÓXIMA EJECUCIÓN" />
+
+</LinearLayout>

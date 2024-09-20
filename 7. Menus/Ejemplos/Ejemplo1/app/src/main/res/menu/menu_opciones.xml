@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/opc_item1" android:title="Opcion 1" android:icon="@android:drawable/btn_star" app:showAsAction="always"/>
+
+    <item android:id="@+id/opc_item2" android:title="Opcion 2" android:icon="@android:drawable/btn_plus" app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/opc_item3" android:title="Opcion 3" android:icon="@android:drawable/arrow_up_float" app:showAsAction="ifRoom">
+        <menu>
+            <item android:id="@+id/opc_subitem1" android:title="Submenu 1"/>
+            <item android:id="@+id/opc_subitem2" android:title="Submenu 2" android:icon="@android:drawable/btn_plus"/>
+        </menu>
+    </item>
+
+    <item android:id="@+id/opc_item4" android:title="Opcion 4" android:icon="@android:drawable/btn_star" app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/opc_item5" android:title="Opcion 5" android:icon="@android:drawable/btn_plus" app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/opc_item6" android:title="Opcion 6" android:icon="@android:drawable/arrow_up_float" app:showAsAction="ifRoom"/>
+</menu>

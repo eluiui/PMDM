@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pantallas">
+        <item>4 colores</item>
+        <item>6 colores</item>
+        <item>9 colores</item>
+    </string-array>
+    <string-array name="padding">
+        <item>Sin padding</item>
+        <item>Con padding</item>
+    </string-array>
+</resources>

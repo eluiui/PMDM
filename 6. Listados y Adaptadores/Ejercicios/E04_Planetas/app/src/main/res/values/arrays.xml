@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="planetas">
+        <item>Mercurio</item>
+        <item>Venus</item>
+        <item>Tierra</item>
+        <item>Marte</item>
+        <item>Jupiter</item>
+        <item>Saturno</item>
+        <item>Urano</item>
+        <item>Neptuno</item>
+    </string-array>
+
+    <string-array name="informacionPlanetas">
+        <item>Informacion de Mercurio</item>
+        <item>Informacion de Venus</item>
+        <item>Informacion de Tierra</item>
+        <item>Informacion de Marte</item>
+        <item>Informacion de Jupiter</item>
+        <item>Informacion de Saturno</item>
+        <item>Informacion de Urano</item>
+        <item>Informacion de Neptuno</item>
+    </string-array>
+
+    <array name="imagenesPlanetas">
+        <item>@drawable/mercurio</item>
+        <item>@drawable/venus</item>
+        <item>@drawable/tierra</item>
+        <item>@drawable/marte</item>
+        <item>@drawable/jupiter</item>
+        <item>@drawable/saturno</item>
+        <item>@drawable/urano</item>
+        <item>@drawable/neptuno</item>
+    </array>
+</resources>

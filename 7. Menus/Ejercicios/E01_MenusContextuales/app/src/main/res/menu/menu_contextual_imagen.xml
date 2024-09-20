@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/opc_img_item1"
+        android:icon="@android:drawable/btn_star"
+        android:title="Opción A"/>
+
+    <item
+        android:id="@+id/opc_img_item2"
+        android:icon="@android:drawable/ic_media_play"
+        android:title="Opción B"/>
+
+</menu>

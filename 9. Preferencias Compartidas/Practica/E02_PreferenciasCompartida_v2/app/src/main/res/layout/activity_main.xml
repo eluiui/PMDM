@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textColor="@color/white"
+        android:background="@color/background"
+        android:padding="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Elige color de texto"/>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rbAzul"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Azul"
+                android:textColor="@color/option_blue"/>
+
+            <RadioButton
+                android:id="@+id/rbRojo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rojo"
+                android:textColor="@color/option_red"/>
+
+            <RadioButton
+                android:id="@+id/rbVerde"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Verde"
+                android:textColor="@color/option_green"/>
+
+            <RadioButton
+                android:id="@+id/rbAmarillo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Amarillo"
+                android:textColor="@color/option_yellow"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/tvCambiante"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Texto cambiante..."/>
+
+        <Button
+            android:id="@+id/btnGuardar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Guardar"
+            android:onClick="onClickBtn"
+            android:visibility="visible"/>
+
+        <Button
+            android:id="@+id/btnResetear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reset"
+            android:onClick="onClickBtn"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+</LinearLayout>

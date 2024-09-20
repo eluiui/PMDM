@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/backgroundAplicacion"
+    android:padding="22dp">
+
+    <ToggleButton
+        android:id="@+id/tbSistemaMedida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOn="Sistema metrico"
+        android:textOff="Sistema anglosajon"
+        android:layout_gravity="right"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="@color/backgroundImagen"
+        android:gravity="center"
+        android:padding="22dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="22dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="IMC"
+                android:textSize="25sp"
+                android:textColor="@color/backgroundAplicacion"/>
+
+            <EditText
+                android:id="@+id/etAltura"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Metros"
+                android:inputType="numberDecimal"/>
+
+            <EditText
+                android:id="@+id/etPeso"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Kg"
+                android:inputType="numberDecimal"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="22dp">
+
+            <Button
+                android:id="@+id/btnCalcular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CALCULAR"/>
+
+            <Button
+                android:id="@+id/btnFinalizar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FINALIZAR"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

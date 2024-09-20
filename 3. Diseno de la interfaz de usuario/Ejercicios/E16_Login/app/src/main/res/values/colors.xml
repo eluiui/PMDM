@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="cabecera">#FFFFFFFF</color>
+    <color name="backgroundCabecera">#673AB7</color>
+    <color name="background">#FFD1DC</color>
+    <color name="titulo">#3F51B5</color>
+    <color name="contrasenhaOlvidada">#3F51B5</color>
+</resources>

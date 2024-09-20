@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/about" android:title="@string/about"/>
+    <item android:id="@+id/asistente" android:title="@string/askquestions"/>
+    <item android:id="@+id/mylist" android:title="@string/milista"/>
+    <item android:id="@+id/fin" android:title="@string/salir" android:icon="@drawable/salir" app:showAsAction="ifRoom"/>
+</menu>

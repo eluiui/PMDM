@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ListaAnimales"
+        android:textSize="15sp"
+        android:textColor="@color/white"
+        android:background="@color/purple"
+        android:padding="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ANIMALES"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:padding="20dp"/>
+
+        <ListView
+            android:id="@+id/lvAnimales"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@color/black"
+            android:dividerHeight="5dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

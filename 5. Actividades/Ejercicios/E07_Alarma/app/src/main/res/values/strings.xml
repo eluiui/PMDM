@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">E07_Alarma</string>
+    <string name="activar_alarma">Prueba de alarma</string>
+    <string name="btnAlarma">Alarma</string>
+</resources>

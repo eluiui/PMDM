@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="animales">
+        <item>AGUILA</item>
+        <item>BELUGA</item>
+        <item>CABALLO</item>
+        <item>CANARIO</item>
+        <item>DELFIN</item>
+        <item>GATO</item>
+        <item>PERRO</item>
+        <item>VACA</item>
+    </string-array>
+
+    <string-array name="informacionAnimales">
+        <item>Informacion del Aguila</item>
+        <item>Informacion de la Beluga</item>
+        <item>Informacion del Caballo</item>
+        <item>Informacion del Canario</item>
+        <item>Informacion del Delfin</item>
+        <item>Informacion del Gato</item>
+        <item>Informacion del Perro</item>
+        <item>Informacion de la Vaca</item>
+    </string-array>
+
+    <array name="fotosAnimales">
+        <item>@drawable/aguila</item>
+        <item>@drawable/ballena</item>
+        <item>@drawable/caballo</item>
+        <item>@drawable/canario</item>
+        <item>@drawable/delfin</item>
+        <item>@drawable/gato</item>
+        <item>@drawable/perro</item>
+        <item>@drawable/vaca</item>
+    </array>
+
+    <array name="clasificacionAnimal">
+        <item>@drawable/ave</item>
+        <item>@drawable/mamifero_acuatico</item>
+        <item>@drawable/mamifero_terrestre</item>
+        <item>@drawable/ave</item>
+        <item>@drawable/mamifero_acuatico</item>
+        <item>@drawable/mamifero_terrestre</item>
+        <item>@drawable/mamifero_terrestre</item>
+        <item>@drawable/mamifero_terrestre</item>
+    </array>
+
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/color"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="AI"
+        android:textColor="@color/black"
+        android:textSize="@dimen/bienvenidatexto" />
+
+    <ImageView
+        android:id="@+id/asistant"
+        android:layout_width="204dp"
+        android:layout_height="162dp"
+        android:layout_gravity="center_horizontal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/tipuser">
+
+        <EditText
+            android:id="@+id/etEscuchado"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:hint="@string/escribir"
+            android:inputType="textCapWords"
+            android:padding="10dp" />
+
+        <Button
+            android:id="@+id/enviar"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:layout_weight="1"
+            android:background="@drawable/enviar"
+            android:onClick="enviarTexto" />
+    </LinearLayout>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/tipuser">
+
+        <TextView
+            android:id="@+id/tvRespuesta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/saludo"
+            android:textSize="@dimen/tipusertextto"
+            android:background="@drawable/targeta"/>
+
+        <ImageView
+            android:id="@+id/demostracion"
+            android:layout_width="289dp"
+            android:layout_height="289dp"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+</ScrollView>
+
+</LinearLayout>

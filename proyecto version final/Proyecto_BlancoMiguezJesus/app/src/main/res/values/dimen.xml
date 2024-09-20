@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bienvenida">30dp</dimen>
+    <dimen name="tipuser">20dp</dimen>
+    <dimen name="diez">10dp</dimen>
+    <dimen name="bienvenidatexto">30sp</dimen>
+    <dimen name="tipusertextto">20sp</dimen>
+    <dimen name="dieztexto">10sp</dimen>
+</resources>

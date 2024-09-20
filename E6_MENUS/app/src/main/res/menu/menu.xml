@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/pantallas" android:title="Pantallas">
+        <menu>
+        <item android:id="@+id/pantalla1" android:title="Pantalla1"/>
+        <item android:id="@+id/pantalla2" android:title="Pantalla2"/>
+        <item android:id="@+id/pantalla3" android:title="Pantalla3"/>
+        <item android:id="@+id/pantalla4" android:title="Pantalla4"/>
+        </menu>
+    </item>
+    <item android:id="@+id/fin" android:title="Finalizar"/>
+    <item android:id="@+id/acercade" android:title="Acerca de..."/>
+</menu>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="rosa">#FA84AC</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#FF0000</color>
+    <color name="grey">#736F6F</color>
+    <color name="yellow">#FFEB3B</color>
+    <color name="purple">#835DC6</color>
+    <color name="cian">#74EFFF</color>
+</resources>

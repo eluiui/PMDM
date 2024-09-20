@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Distintos métodos"/>
+
+    <Button
+        android:id="@+id/btnMenus"
+        android:layout_width="@dimen/btnWidth"
+        android:layout_height="wrap_content"
+        android:text="Menus"
+        android:onClick="onClickBtn"/>
+
+    <Button
+        android:id="@+id/btnSpinners"
+        android:layout_width="@dimen/btnWidth"
+        android:layout_height="wrap_content"
+        android:text="Spinners"
+        android:onClick="onClickBtn"/>
+
+    <Button
+        android:id="@+id/btnListViews"
+        android:layout_width="@dimen/btnWidth"
+        android:layout_height="wrap_content"
+        android:text="ListViews"
+        android:onClick="onClickBtn"/>
+
+    <Button
+        android:id="@+id/btnNotificaciones"
+        android:layout_width="@dimen/btnWidth"
+        android:layout_height="wrap_content"
+        android:text="Notificaciones"
+        android:onClick="onClickBtn"/>
+
+    <Button
+        android:id="@+id/btnPersistence"
+        android:layout_width="@dimen/btnWidth"
+        android:layout_height="wrap_content"
+        android:text="Persistencia de Datos"
+        android:onClick="onClickBtn"/>
+
+</LinearLayout>

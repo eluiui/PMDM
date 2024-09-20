@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/color"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:id="@+id/layoutverificar"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <EditText
+            android:id="@+id/verificacionadmin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/insertcontraseña"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/verificacionadminbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/naranja"
+            android:onClick="onclick"
+            android:text="@string/entrar"
+            android:textSize="@dimen/tipusertextto" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutadmin"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/gifadmin"
+                android:layout_width="wrap_content"
+                android:layout_height="127dp"
+                android:layout_weight="3" />
+
+            <TextView
+                android:id="@+id/tvadministrador"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/bienvenida"
+                android:layout_weight="1"
+                android:text="@string/admin"
+                android:textColor="@color/black"
+                android:textSize="@dimen/tipusertextto"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/layoutcreacion"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="@dimen/diez"
+                android:visibility="gone">
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/tvanimename"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/nombre" />
+                            <TextView
+                                android:id="@+id/tvnombreanime"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="15sp"
+                                android:textStyle="bold|italic"
+                                android:visibility="gone"/>
+
+                            <EditText
+                                android:id="@+id/etanimename"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:hint="@string/insertnombre"
+                                android:inputType="textCapWords" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/modificaranimell"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:visibility="gone">
+
+                            <TextView
+                                android:id="@+id/tvanimenamenuevo"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/nombrenuevo" />
+
+                            <EditText
+                                android:id="@+id/etanimenamenuevo"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:hint="@string/insertnombrenuevo"
+                                android:inputType="textCapWords" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/tvsinopsis"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/sinopsis" />
+
+                            <EditText
+                                android:id="@+id/etsinopsis"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:hint="@string/insertsinopsis"
+                                android:inputType="text" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/tvlink"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Link: " />
+
+                            <EditText
+                                android:id="@+id/etlink"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="3"
+                                android:hint="@string/link"
+                                android:inputType="textCapWords" />
+                        </LinearLayout>
+
+
+                        <ImageView
+                            android:id="@+id/imageView"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_marginBottom="20dp"
+                            android:layout_weight="1"
+                            android:adjustViewBounds="true"
+                            android:maxHeight="200dp"
+                            android:minHeight="60dp"
+                            android:onClick="onclick"
+                            android:src="@drawable/ponerimagen" />
+
+
+                        <Button
+                            android:id="@+id/crearanime"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:backgroundTint="@color/naranja"
+                            android:onClick="onclick"
+                            android:text="@string/add"
+                            android:textSize="@dimen/tipusertextto" />
+
+                        <Button
+                            android:id="@+id/modificaranimenuevo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:backgroundTint="@color/naranja"
+                            android:onClick="onClickmodificacion"
+                            android:text="@string/modificar"
+                            android:textSize="@dimen/tipusertextto"
+                            android:visibility="gone" />
+                    </LinearLayout>
+                </ScrollView>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/crearadmin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/naranja"
+                android:onClick="onclick"
+                android:text="@string/create"
+                android:textSize="@dimen/tipusertextto" />
+
+
+            <ListView
+                android:id="@+id/listviewadmin"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="@dimen/tipuser"
+                android:layout_marginTop="@dimen/tipuser"
+                android:layout_marginRight="@dimen/tipuser"
+                android:layout_weight="1"
+                android:divider="@drawable/divider"
+                android:dividerHeight="10dp"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/modificaradmin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/diez"
+                android:backgroundTint="@color/naranja"
+                android:onClick="onclick"
+                android:text="@string/view"
+                android:textSize="@dimen/tipusertextto" />
+
+            <Button
+                android:id="@+id/saliradmin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/diez"
+                android:backgroundTint="@color/naranja"
+                android:onClick="onclick"
+                android:text="@string/gobackbtn"
+                android:textSize="@dimen/tipusertextto" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutuser"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvuser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/bienvenida"
+                android:text="@string/user"
+                android:textColor="@color/black"
+                android:textSize="@dimen/bienvenidatexto"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginBottom="@dimen/bienvenida"
+                android:layout_weight="1"
+                android:src="@drawable/iniciosesion" />
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="@dimen/tipuser">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/layoutlogin"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="@dimen/diez">
+
+                        <TextView
+                            android:id="@+id/tvnombre"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+                            android:text="@string/nombre" />
+
+                        <AutoCompleteTextView
+                            android:id="@+id/etnombre"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:completionThreshold="1"
+                            android:hint="@string/insertnombre"
+                            android:inputType="textCapWords" />
+
+                        <TextView
+                            android:id="@+id/tvpassword"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/diez"
+                            android:layout_marginBottom="5dp"
+                            android:text="@string/contraseña" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <EditText
+                                android:id="@+id/etpassword"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="8"
+                                android:hint="@string/insertcontraseña"
+                                android:inputType="textPassword" />
+
+                            <Button
+                                android:id="@+id/mostrarcontraseñabtn"
+                                android:layout_width="0dp"
+                                android:layout_height="45dp"
+                                android:layout_weight="1"
+                                android:background="@drawable/ojocerrado" />
+                        </LinearLayout>
+
+                        <CheckBox
+                            android:id="@+id/recordarchk"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/diez"
+                            android:text="@string/recordarusuario" />
+
+                        <Button
+                            android:id="@+id/enterlogin"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:backgroundTint="@color/naranja"
+                            android:onClick="onclick"
+                            android:text="@string/entrar"
+                            android:textSize="@dimen/tipusertextto" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/layoutsignin"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/tvcorreo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/correo" />
+
+                        <EditText
+                            android:id="@+id/etcorreo"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/insertcorreo"
+                            android:inputType="textEmailAddress" />
+
+                        <TextView
+                            android:id="@+id/tvnombresignin"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/diez"
+                            android:text="@string/nombre" />
+
+                        <EditText
+                            android:id="@+id/etnombresignin"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/insertnombre"
+                            android:inputType="textCapWords" />
+
+                        <TextView
+                            android:id="@+id/tvpasswordsignin"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/diez"
+                            android:text="@string/contraseña" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <EditText
+                                android:id="@+id/etpasswordsignin"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="8"
+                                android:hint="@string/insertcontraseña"
+                                android:inputType="textPassword" />
+
+                            <Button
+                                android:id="@+id/mostrarcontraseñabtnsigin"
+                                android:layout_width="0dp"
+                                android:layout_height="45dp"
+                                android:layout_weight="1"
+                                android:background="@drawable/ojocerrado" />
+                        </LinearLayout>
+
+                        <Button
+                            android:id="@+id/entersignin"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/diez"
+                            android:backgroundTint="@color/naranja"
+                            android:onClick="onclick"
+                            android:text="@string/entrar"
+                            android:textSize="@dimen/tipusertextto" />
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/diez"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/login"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/naranja"
+                        android:onClick="onclick"
+                        android:text="@string/login"
+                        android:textSize="@dimen/tipusertextto"
+                        android:visibility="gone" />
+
+                    <Button
+                        android:id="@+id/signin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/naranja"
+                        android:onClick="onclick"
+                        android:text="@string/signin"
+                        android:textSize="@dimen/tipusertextto" />
+
+                    <Button
+                        android:id="@+id/saliruser"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/naranja"
+                        android:onClick="onclick"
+                        android:text="@string/gobackbtn"
+                        android:textSize="@dimen/tipusertextto" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

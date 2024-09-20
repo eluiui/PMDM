@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pink"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/etCabecera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="@dimen/letraTamanho"
+        android:textColor="@color/white"
+        android:background="@color/purple"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/etTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tvTitulo"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/letraTamanho"
+            android:layout_margin="@dimen/margenes"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/etEmail"
+            android:textSize="@dimen/letraTamanho"
+            android:inputType="textEmailAddress"
+            android:layout_margin="@dimen/margenes"
+            android:layout_below="@id/etTitulo"/>
+
+        <EditText
+            android:id="@+id/etContrasenha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/etContrasenha"
+            android:textSize="@dimen/letraTamanho"
+            android:inputType="textPassword"
+            android:layout_below="@id/etEmail"
+            android:layout_margin="@dimen/margenes"/>
+
+        <Button
+            android:id="@+id/btnIniciar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btnIniciar"
+            android:textSize="@dimen/letraTamanho"
+            android:layout_below="@id/etContrasenha"
+            android:layout_margin="@dimen/margenes"/>
+
+        <TextView
+            android:id="@+id/forgotPasswordText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tvContrasenhaOlvidada"
+            android:textColor="@color/purple"
+            android:textSize="36sp"
+            android:layout_marginTop="@dimen/margenes"
+            android:layout_below="@id/btnIniciar"
+            android:gravity="center"
+            android:clickable="true"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
+

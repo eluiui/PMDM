@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pantallas">
+        <item>4 colores</item>
+        <item>6 colores</item>
+        <item>9 colores</item>
+    </string-array>
+    <string-array name="informacion">
+        <item>Pantalla de 4 colores</item>
+        <item>Pantalla de 6 colores</item>
+        <item>Pantalla de 9 colores</item>
+    </string-array>
+    <string-array name="imagenespantallas">
+        <item>@drawable/colores</item>
+        <item>@drawable/coloresdos</item>
+        <item>@drawable/colorestres</item>
+    </string-array>
+    <string-array name="numero">
+        <item>4</item>
+        <item>6</item>
+        <item>9</item>
+    </string-array>
+    <string-array name="imagenespadding">
+        <item>@drawable/coloresdos</item>
+        <item>@drawable/colorespadding</item>
+    </string-array>
+    <string-array name="padding">
+        <item>Sin padding</item>
+        <item>Con padding</item>
+    </string-array>
+</resources>

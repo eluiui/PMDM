@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Navegador_RelativeLayout</string>
+    <string name="app_name_v2">Navegador_RelativeLayout_Mejorado</string>
+    <string name="mensaje">¿Utilizas Chrome?</string>
+    <string name="btnSi">Si</string>
+    <string name="btnNo">No</string>
+    <string name="btnAVeces">A veces</string>
+</resources>

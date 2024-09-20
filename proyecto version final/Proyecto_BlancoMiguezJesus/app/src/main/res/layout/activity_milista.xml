@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/color"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/nombredeusertv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:padding="@dimen/diez"
+        android:layout_gravity="center_horizontal"
+        android:textSize="@dimen/bienvenidatexto"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_marginBottom="@dimen/bienvenida"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/avatariv"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <Spinner
+            android:id="@+id/spprofile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/avatares"/>
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/milistalv"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:dividerHeight="10dp"
+        android:divider="@drawable/divider"
+        android:layout_marginLeft="@dimen/tipuser"
+        android:layout_marginRight="@dimen/tipuser"
+        android:layout_marginBottom="@dimen/tipuser"
+        android:layout_weight="3" />
+</LinearLayout>

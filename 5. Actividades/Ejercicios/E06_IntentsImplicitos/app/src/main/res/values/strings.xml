@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">IntentsImplicitos</string>
+    <string name="tvMensaje">Intents Implicitos</string>
+    <string name="btnMostrar">MOSTRAR CONTACTOS</string>
+    <string name="btnLlamar">LLAMAR POR TELEFONO</string>
+    <string name="btnLlamarCompat">LLAMAR POR TELEFONO (COMPAT)</string>
+    <string name="btnMarcar">MARCAR NUMERO</string>
+    <string name="btnSMS">ESCRIBIR UN SMS</string>
+    <string name="btnAbrir">ABRIR NAVEGADOR</string>
+    <string name="btnMapa">ABRIR MAPA</string>
+    <string name="btnOtraApp">ABRIR LA APP CUENTACLICK</string>
+</resources>

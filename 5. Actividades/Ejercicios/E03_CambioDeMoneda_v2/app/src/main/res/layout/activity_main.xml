@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/cyan">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textColor="@color/white"
+        android:background="@color/purple"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_margin="15dp">
+
+        <TextView
+            android:id="@+id/tvTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tvTitulo"
+            android:textColor="@color/black"
+            android:textSize="@dimen/titleSize"
+            android:gravity="center"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:gravity="center">
+
+            <RadioButton
+                android:id="@+id/rbToEur"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/rbToEur"
+                android:layout_marginEnd="50dp"
+                android:textSize="@dimen/letterSize"/>
+
+            <RadioButton
+                android:id="@+id/rbToPts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rbToPts"
+                android:textSize="@dimen/letterSize"/>
+
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvCantidad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tvCantidad"
+                android:textSize="@dimen/letterSize"/>
+
+            <EditText
+                android:id="@+id/etCantidad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/etCantidad"
+                android:textSize="@dimen/letterSize"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnCambiar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btnCambiar"
+            android:layout_marginTop="25dp"
+            android:onClick="cambiar"/>
+
+        <TextView
+            android:id="@+id/tvMensaje"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/red"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/btn_NToast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Saca un Toast personalizado sencillo"
+        android:onClick="onClickBtnNotifications"/>
+
+    <Button
+        android:id="@+id/btn_NToast2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Saca un Toast personalizado"
+        android:onClick="onClickBtnNotifications"/>
+
+    <Button
+        android:id="@+id/btn_AlertDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Saca un AlertDialog"
+        android:onClick="onClickBtnNotifications"/>
+
+    <Button
+        android:id="@+id/btn_AlertDialogMultipleChoice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Saca un AlertDialog con ComboBox"
+        android:onClick="onClickBtnNotifications"/>
+
+    <Button
+        android:id="@+id/btn_NBarra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Saca un Notificación en la barra"
+        android:onClick="onClickBtnNotifications"/>
+
+    <Button
+        android:id="@+id/btn_Botones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Saca un Dialog con botones"
+        android:onClick="onClickBtnNotifications"/>
+
+</LinearLayout>

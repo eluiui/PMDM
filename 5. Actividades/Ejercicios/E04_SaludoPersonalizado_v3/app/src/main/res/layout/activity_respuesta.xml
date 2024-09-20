@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/cyan">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cabecera2"
+        android:textColor="@color/white"
+        android:background="@color/purple"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tvMensaje"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/red"
+            android:textSize="30sp" />
+
+        <CheckBox
+            android:id="@+id/cbDespedida"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cbDespedida"/>
+
+        <TextView
+            android:id="@+id/tvElegir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvElegir"
+            android:visibility="gone" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:gravity="center">
+
+            <RadioButton
+                android:id="@+id/rbAdios"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/rbAdios"
+                android:visibility="gone"/>
+
+            <RadioButton
+                android:id="@+id/rbHastaPronto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rbHastaPronto"
+                android:visibility="gone"/>
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnFinalizar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btnFinalizar"
+            android:layout_marginTop="25dp"
+            android:onClick="finalizar"/>
+
+    </LinearLayout>
+
+</LinearLayout>

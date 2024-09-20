@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LanzarSettings</string>
+    <string name="btnCalculadora">CALCULADORA</string>
+    <string name="tvMensaje1">Pulsa para ejecutar la calculadora</string>
+    <string name="tvMensaje2">Pulsa para ejecutar la pantalla de ajustes</string>
+    <string name="btnAjustes">AJUSTES</string>
+</resources>
